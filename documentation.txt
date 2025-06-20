@@ -1,0 +1,56 @@
+Assignment 1 Documentation:
+️Q.1 What each HTML element does:
+
+- <!DOCTYPE html> – It means we are using the HTML Version5.
+- <html> – It is the Root element of the HTML document
+- <head> – It Contains the meta info, title, favicon, etc.
+- <title> – It is used to Set the title shown in the browser tab
+- <meta> – Provides metadata like character set and viewport settings.
+- <link> – Link tag is used to link external files,like sometimes we use external css,link using this tag only.
+- <body> – It Contains everything visible on the webpage
+- <header> – It contains the Top section, usually with heading or navigation.
+- <nav> – Defines navigation links,the nav bar that contains the links.
+- <main> – It contains the  Main content of the page
+- <section> – It Groups related content
+- <h1> to <h6> – Headings from most to least important.
+- <ul> and <ol> – Unordered and ordered lists
+- <li> – List item
+- <img> – Embeds an image
+- <table> – Displays tabular data
+- <tr>, <th>, <td> – Table row, header cell, data cell
+- <form> – Defines a user input form
+- <input> – Various input types like text, email, date, range
+- <textarea> – Multi-line text box
+- <select>, <option> – Dropdown menu
+- <button> – A clickable button
+- <footer> – Bottom section of the page
+
+--------------------------------------------------------
+ Q2.  Why I chose specific input types:
+
+- text– To collect name (plain text)
+- email – Ensures user enters a valid email format
+- tel – Accepts phone numbers; can use pattern validation
+- textarea –It  Suitable for entering the longer messages
+- checkbox – checkbox Allows us selection of multiple preferred contact methods
+- radio – It is used when we have to choose one like inquiry.
+- select – For dropdown with predefined contact reasons
+- date – To let users pick a preferred contact date
+- range – It is used to select urgency level from 1 to 5
+
+--------------------------------------------------------
+
+Q3. How my navigation structure works:
+
+- In Each page I include a nav bar,<nav> or navigation menu inside the <header>
+- The menu contains links:
+  - portfolio.html :This is for (Home)
+  - about.html:This is for  (About Me)
+  - contact.html :This is for (Contact)
+- Links are internal and use relative paths (no external page navigation)
+- They help the user move easily between pages.
+
+--------------------------------------------------------
+
+Q.4Favicon is added using:
+<link rel="icon" type="image/x-icon" href="favicon.ico">
